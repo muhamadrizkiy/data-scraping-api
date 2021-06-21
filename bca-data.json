@@ -1,0 +1,605 @@
+{
+    "results": {
+        "result": {
+            "accounts": [
+                {
+                    "accountNumber": "******7811",
+                    "accountType": "Tabungan",
+                    "currency": "IDR",
+                    "balance": "57,515,782.10",
+                    "transactions": [
+                        {
+                            "id": "4d3f56ae29dc5788cdcb8599cce698d74da27530ff899f6d97e104140636e6b2",
+                            "date": "01/03/2021",
+                            "desc": "TRSF E-BANKING DB\n02/27 95031\n2ND FINKU CONTRACT\nDICKY ADRIAN\n",
+                            "cab": "0000",
+                            "amount": "3,500,000.00",
+                            "flow": "DB",
+                            "balance": "123,262,551.10"
+                        },
+                        {
+                            "id": "3734bb6272c205641ce9df7c41751b24604e0f9979794f70bc1119179b7b2134",
+                            "date": "01/03/2021",
+                            "desc": "TRSF E-BANKING DB\n02/27 95031\nAKTA\nYENNY WIDJAJA\n",
+                            "cab": "0000",
+                            "amount": "7,000,000.00",
+                            "flow": "DB",
+                            "balance": "116,262,551.10"
+                        },
+                        {
+                            "id": "9c4aadb10225d7362e9e7416c150c96d1791275d736e39d156935815c126efdc",
+                            "date": "02/03/2021",
+                            "desc": "TRSF E-BANKING DB\n0203/FTLLG/0000100\n0310305CITIBANK\nTRANSFER VIA LLG\nREF NO PPU :3JF7\nReinaldo Putera Te\n",
+                            "cab": "0000",
+                            "amount": "5,284,405.00",
+                            "flow": "DB",
+                            "balance": "110,978,146.10"
+                        },
+                        {
+                            "id": "ffe4045ef550c43d0fb455e2e43d604cdbdd88e96627365ee2febc0f7059c78b",
+                            "date": "02/03/2021",
+                            "desc": "BA JASA E-BANKING\n0203/DMCHG/0000100BIAYA TRANSFER KU",
+                            "cab": "0000",
+                            "amount": "2,900.00",
+                            "flow": "DB",
+                            "balance": "110,975,246.10"
+                        },
+                        {
+                            "id": "9a674f50e1939e14b320368a4620fae0598377f55ff26bd36cfc6c57bc75eb42",
+                            "date": "02/03/2021",
+                            "desc": "TRSF E-BANKING DB\n03/02 95031\nTEST\nFLIPTECH LENTERA I\n",
+                            "cab": "0000",
+                            "amount": "1,000,585.00",
+                            "flow": "DB",
+                            "balance": "109,974,661.10"
+                        },
+                        {
+                            "id": "284f7b28025f1d360a50d406c491f117b1a469d4e1ba386cfa47ed7730401eb7",
+                            "date": "02/03/2021",
+                            "desc": "TRSF E-BANKING DB\n03/02 95031\nPAYMENT CONTRACT 3\nDICKY ADRIAN\n",
+                            "cab": "0000",
+                            "amount": "175,000.00",
+                            "flow": "DB",
+                            "balance": "109,799,661.10"
+                        },
+                        {
+                            "id": "c0fa94b308f17ea4694498ccb56e1cae271fd314469caadcee82574d0dc45ab8",
+                            "date": "08/03/2021",
+                            "desc": "TRSF E-BANKING DB\n03/07 95031\nKEEP FOR ME FIRST\nELLY GOZAL\n",
+                            "cab": "0000",
+                            "amount": "50,000,000.00",
+                            "flow": "DB",
+                            "balance": "59,799,661.10"
+                        },
+                        {
+                            "id": "41561d4d9fb2183fc68e26fc22b2ac3f546f4199cb8f368422a41d85745357e2",
+                            "date": "10/03/2021",
+                            "desc": "KR OTOMATIS\nPEMBAYARAN BUNGA SBR006 10/02/21 - 10/03/21",
+                            "cab": "0939",
+                            "amount": "281,563.00",
+                            "flow": "CR",
+                            "balance": "60,081,224.10"
+                        },
+                        {
+                            "id": "f46b812742ccd2a1d1ffe1c148d575ad40c438506ab5ab16670c2a2e66e0bb3e",
+                            "date": "10/03/2021",
+                            "desc": "KR OTOMATIS\nPEMBAYARAN BUNGA SR011 10/02/21 - 10/03/21",
+                            "cab": "0939",
+                            "amount": "570,180.00",
+                            "flow": "CR",
+                            "balance": "60,651,404.10"
+                        },
+                        {
+                            "id": "b50f403136e0020f6812efcebcdd7cd7ec7bd8f3565e0c9ff1df08fac3a75d2c",
+                            "date": "18/03/2021",
+                            "desc": "TRSF E-BANKING DB\n1803/FTSCY/WS95011\n250000.00\nHello\nHENI IRMAWATI\n",
+                            "cab": "0000",
+                            "amount": "250,000.00",
+                            "flow": "DB",
+                            "balance": "60,401,404.10"
+                        },
+                        {
+                            "id": "af2333f131d52116bbc2875a73f69365a53ed51d9504e474e84bef767d4618fd",
+                            "date": "19/03/2021",
+                            "desc": "BIAYA ADM\n",
+                            "cab": "0000",
+                            "amount": "15,000.00",
+                            "flow": "DB",
+                            "balance": "60,386,404.10"
+                        },
+                        {
+                            "id": "785a32d760a82fb008216311f9c6e4ac6dec39af5fdd247a1aa7b77d9985142e",
+                            "date": "26/03/2021",
+                            "desc": "KR OTOMATIS\nLLG-JPMORGAN CHASEPT BOSTON CONSULTITB20210320-1121-01,20-MAR-21,550232,550232,",
+                            "cab": "0938",
+                            "amount": "550,232.00",
+                            "flow": "CR",
+                            "balance": "60,936,636.10"
+                        },
+                        {
+                            "id": "059fdfd1c92c52beac93a0891d8bb626e995a4841534eff4a611cd67dfa86200",
+                            "date": "29/03/2021",
+                            "desc": "TRSF E-BANKING DB\n03/29 95031\nSHUFI\nDOMPET HARAPAN BAN\n",
+                            "cab": "0000",
+                            "amount": "1,160,949.00",
+                            "flow": "DB",
+                            "balance": "59,775,687.10"
+                        },
+                        {
+                            "id": "40feb7decdab033b6001b1786209bc362af414484fdc1ea366e0423973d34240",
+                            "date": "30/03/2021",
+                            "desc": "BYR VIA E-BANKING\n30/03 WSID9503103\n0110 CITIBANK\n4617782090423161\nREINALDO PUTERA TE",
+                            "cab": "0000",
+                            "amount": "2,209,905.00",
+                            "flow": "DB",
+                            "balance": "57,565,782.10"
+                        },
+                        {
+                            "id": "617deb658a48cbd4b4a95bae9859405e0b1b03482eaf0f5a8274cb9687899ac0",
+                            "date": "05/02/2021",
+                            "desc": "BYR VIA E-BANKING\n05/02 WSID9503100\n0110 CITIBANK\n4617782090423161\nREINALDO PUTERA TE",
+                            "cab": "0998",
+                            "amount": "5,203,147.00",
+                            "flow": "DB",
+                            "balance": "209,944,861.80"
+                        },
+                        {
+                            "id": "68cf821b4276d8965f770eba9399f176836ba5834fa155a3246995f484726fd7",
+                            "date": "05/02/2021",
+                            "desc": "TRSF E-BANKING DB\n02/05 95031\nREXX BDAY\nROMARIO LEXUS TEND\n",
+                            "cab": "0998",
+                            "amount": "663,000.00",
+                            "flow": "DB",
+                            "balance": "209,281,861.80"
+                        },
+                        {
+                            "id": "94b1739ca127492bd1c44ec9dd6eddefb34e97b950d39a3b2f1c2c1ac499c32f",
+                            "date": "08/02/2021",
+                            "desc": "TRSF E-BANKING DB\n02/07 95031\nCUSH BURGER REI\nROMARIO LEXUS T/JE\n",
+                            "cab": "0998",
+                            "amount": "322,000.00",
+                            "flow": "DB",
+                            "balance": "208,959,861.80"
+                        },
+                        {
+                            "id": "e916b29ec769954ce0169c5ab1aee5fc1ab97f7b75ee7fbd93a01d324424a6b0",
+                            "date": "08/02/2021",
+                            "desc": "TRSF E-BANKING DB\n02/08 95031\nFINKU 2.5 JAM 300\nK PER HOUR\nANDHIKA WIDJOJO",
+                            "cab": "0998",
+                            "amount": "750,000.00",
+                            "flow": "DB",
+                            "balance": "208,209,861.80"
+                        },
+                        {
+                            "id": "2c050d5fcae30a2e855d3a41cea1d2b63a2e0e805b9ff4eb0b0c45ce8f2d9dbe",
+                            "date": "10/02/2021",
+                            "desc": "KR OTOMATIS\n",
+                            "cab": "0000",
+                            "amount": "281,563.00",
+                            "flow": "CR",
+                            "balance": "208,491,424.80"
+                        },
+                        {
+                            "id": "8d2e1b14af198f57fb33018ea4d70dcb15f56e07726cafa651e97e4ebcd8ff5a",
+                            "date": "10/02/2021",
+                            "desc": "KR OTOMATIS\n",
+                            "cab": "0000",
+                            "amount": "570,180.00",
+                            "flow": "CR",
+                            "balance": "209,061,604.80"
+                        },
+                        {
+                            "id": "538dc3fa3b51c636b330de88d11f801bac20dc0f6430fbdfb650b5ba56717c76",
+                            "date": "11/02/2021",
+                            "desc": "SWITCHING CR\nTRANSFER DR 523 SYF214882363RefundJL. JEND. S",
+                            "cab": "0998",
+                            "amount": "16,299,826.00",
+                            "flow": "CR",
+                            "balance": "225,361,430.80"
+                        },
+                        {
+                            "id": "4a73dde75bab50426aa567a4c1a25d936fa154657a032076467eed3368900c37",
+                            "date": "15/02/2021",
+                            "desc": "TRSF E-BANKING DB\n1202/FTSCY/WS95011\n380044.00\nLIVIA MARGARITA AN\n",
+                            "cab": "0253",
+                            "amount": "380,044.00",
+                            "flow": "DB",
+                            "balance": "224,981,386.80"
+                        },
+                        {
+                            "id": "51ef2a7024ecc102873036cb2a79bcf81f9c10083e2e62955afa3e8f68be6124",
+                            "date": "15/02/2021",
+                            "desc": "TRSF E-BANKING DB\n1302/FTFVA/WS95221\n61021/OVO\n212D14254308948882\n",
+                            "cab": "0253",
+                            "amount": "201,000.00",
+                            "flow": "DB",
+                            "balance": "224,780,386.80"
+                        },
+                        {
+                            "id": "340ded2a39a50aef99ab6505ec08f906519a937040c2575d88f102ccc1c5c76f",
+                            "date": "15/02/2021",
+                            "desc": "TRANSAKSI DEBIT\nTGL: 0213 QR 011 PGDP Internasional",
+                            "cab": "0000",
+                            "amount": "100,000.00",
+                            "flow": "DB",
+                            "balance": "224,680,386.80"
+                        },
+                        {
+                            "id": "de663a6bb22fbbb88406c499dab461ddb4272d0fb019c84cf3de42edd7272279",
+                            "date": "15/02/2021",
+                            "desc": "TRSF E-BANKING CR\n02/14 95031\nROMARIO LEXUS TEND\n",
+                            "cab": "0998",
+                            "amount": "190,000.00",
+                            "flow": "CR",
+                            "balance": "224,870,386.80"
+                        },
+                        {
+                            "id": "b8aeb80aa321791b9226284c9607e02173c72c12412012d08fa9e1b1445478b4",
+                            "date": "15/02/2021",
+                            "desc": "TRSF E-BANKING DB\n1502/FTLLG/0000100\n0220026CIMB NIAGA\nTRANSFER VIA LLG\nREF NO PPU :ZJQC\nReinaldo Putera Te\n",
+                            "cab": "0253",
+                            "amount": "100,000,000.00",
+                            "flow": "DB",
+                            "balance": "124,870,386.80"
+                        },
+                        {
+                            "id": "612e9b09177198aee054031fc9e20b24b9b617ead4d8e30888f6a56dfe03ff35",
+                            "date": "15/02/2021",
+                            "desc": "BA JASA E-BANKING\n1502/DMCHG/0000100BIAYA TRANSFER KU",
+                            "cab": "0253",
+                            "amount": "2,900.00",
+                            "flow": "DB",
+                            "balance": "124,867,486.80"
+                        },
+                        {
+                            "id": "36307dd3d3f2b0176314350b8d743ea3e18ff36b1739eb6952c8fb070f52f306",
+                            "date": "15/02/2021",
+                            "desc": "KR OTOMATIS\nLLG-JPMORGAN CHASEPT BOSTON CONSULTITB20210206-521-01,06-FEB-21,1129117,1129117,TB201,1642",
+                            "cab": "0938",
+                            "amount": "2,771,973.00",
+                            "flow": "CR",
+                            "balance": "127,639,459.80"
+                        },
+                        {
+                            "id": "8311da1a1029335152cae788fd719ab95881b76da9326e7483f6eee3c1627cae",
+                            "date": "16/02/2021",
+                            "desc": "TRSF E-BANKING DB\n1602/FTFVA/WS95031\n09110/LINKAJA\n0811189890",
+                            "cab": "0000",
+                            "amount": "201,000.00",
+                            "flow": "DB",
+                            "balance": "127,438,459.80"
+                        },
+                        {
+                            "id": "e88b32461a4308758ee1fad4ae04ba248d6442bc5b215b5aebfb467303d5b3e6",
+                            "date": "16/02/2021",
+                            "desc": "TRSF E-BANKING DB\n1602/FTFVA/WS95031\n09110/LINKAJA\n0818989800",
+                            "cab": "0000",
+                            "amount": "101,000.00",
+                            "flow": "DB",
+                            "balance": "127,337,459.80"
+                        },
+                        {
+                            "id": "7af41f0bfd04f46ee4c9eb64e396dda1064da781e6d9014c5a4ad25511fea4a1",
+                            "date": "19/02/2021",
+                            "desc": "BIAYA ADM\n",
+                            "cab": "0000",
+                            "amount": "15,000.00",
+                            "flow": "DB",
+                            "balance": "127,322,459.80"
+                        },
+                        {
+                            "id": "73738e523053c72e4749ba7860310806ce3e4155d5314f946ccf10d0744bda27",
+                            "date": "22/02/2021",
+                            "desc": "TRSF E-BANKING DB\n02/21 95031\nRS PRESENT\nCHRISTINA NURSALIM\n",
+                            "cab": "0998",
+                            "amount": "267,261.00",
+                            "flow": "DB",
+                            "balance": "127,055,198.80"
+                        },
+                        {
+                            "id": "0952ae79d9885563980e5d5a147746a082974595fc0b56a2195516c359597466",
+                            "date": "22/02/2021",
+                            "desc": "TRSF E-BANKING DB\n02/22 95031\nHELLO\nRESKA MAYA SARI",
+                            "cab": "0998",
+                            "amount": "300,000.00",
+                            "flow": "DB",
+                            "balance": "126,755,198.80"
+                        },
+                        {
+                            "id": "2a74067af365f10fd7ea7e0c08a2f7f1a6c2ea8d04e22d27ea830b9304f0f132",
+                            "date": "28/02/2021",
+                            "desc": "BUNGA\n",
+                            "cab": "0000",
+                            "amount": "9,190.37",
+                            "flow": "CR",
+                            "balance": "126,764,389.17"
+                        },
+                        {
+                            "id": "99771c47c34fb400a676fd6190ddc5d963614a7e96f046cbf45601b077b9ab99",
+                            "date": "28/02/2021",
+                            "desc": "PAJAK BUNGA\n",
+                            "cab": "0000",
+                            "amount": "1,838.07",
+                            "flow": "DB",
+                            "balance": "126,762,551.10"
+                        },
+                        {
+                            "id": "50c805478c0087b509c8d858e62323fc55cbc543c6123aea881f44668d7b3fc9",
+                            "date": "04/01/2021",
+                            "desc": "TRSF E-BANKING DB\n0201/FTFVA/WS95031\n70001/GO-PAY CUSTO\n0818989800",
+                            "cab": "0000",
+                            "amount": "1,000,999.00",
+                            "flow": "DB",
+                            "balance": "106,524,799.68"
+                        },
+                        {
+                            "id": "bce63368232ef865c8c2f967dd26ac436eb58abf11704226eea6678a0c01bde6",
+                            "date": "04/01/2021",
+                            "desc": "SWITCHING CR\nTANGGAL :03/01 TRANSFER DR 022 REINALDO PUTERA TE0001778065",
+                            "cab": "0998",
+                            "amount": "94,107,411.00",
+                            "flow": "CR",
+                            "balance": "200,632,210.68"
+                        },
+                        {
+                            "id": "5b481165d00f4d8bca80b8f152fdf191e13c3f955d1fec7a979e40480d75774e",
+                            "date": "04/01/2021",
+                            "desc": "TRSF E-BANKING DB\n0301/FTCCY/WS95011\n2000.00\nREINALDO PUTERA TE\n",
+                            "cab": "0253",
+                            "amount": "28,210,000.00",
+                            "flow": "DB",
+                            "balance": "172,422,210.68"
+                        },
+                        {
+                            "id": "546eb32f05a4caf53073005af69301353beb8b651d6f1cfb1ceed5794c19aca7",
+                            "date": "04/01/2021",
+                            "desc": "TRSF E-BANKING DB\n0401/FTCCY/WS95011\n2000.00\nREINALDO PUTERA TE\n",
+                            "cab": "0253",
+                            "amount": "27,800,000.00",
+                            "flow": "DB",
+                            "balance": "144,622,210.68"
+                        },
+                        {
+                            "id": "a494e2ab298c7027f0547f4abbc44ada94b4d147ff5aafe486c8f78cf73aac3d",
+                            "date": "05/01/2021",
+                            "desc": "SWITCHING CR\nTANGGAL :04/01 TRANSFER DR 022 REINALDO PUTERA TE0001778065",
+                            "cab": "0000",
+                            "amount": "70,000,000.00",
+                            "flow": "CR",
+                            "balance": "214,622,210.68"
+                        },
+                        {
+                            "id": "42f7f6faf72892bbf4e4534dfdd1ee6be68aeef8e49e0dcd905c3522e7605eb5",
+                            "date": "05/01/2021",
+                            "desc": "SWITCHING DB\nTRANSFER KE 009 SDR SOLICHAN M-BCA",
+                            "cab": "0000",
+                            "amount": "1,500,000.00",
+                            "flow": "DB",
+                            "balance": "213,122,210.68"
+                        },
+                        {
+                            "id": "99ef26c8d712fb95a241b74359cd2b23c637e6cbc9004ddb8fd96c5095785b71",
+                            "date": "05/01/2021",
+                            "desc": "SWITCHING DB\nBIAYA TXN KE 009 SDR SOLICHAN M-BCA",
+                            "cab": "0000",
+                            "amount": "6,500.00",
+                            "flow": "DB",
+                            "balance": "213,115,710.68"
+                        },
+                        {
+                            "id": "16219d2e019d05e849e343688d5ce1d15788ac24b156af4303ee401f5e1bd425",
+                            "date": "05/01/2021",
+                            "desc": "BYR VIA E-BANKING\n05/01 WSID9503100\n0110 CITIBANK\n4617782090423161\nREINALDO PUTERA TE",
+                            "cab": "0998",
+                            "amount": "2,392,058.00",
+                            "flow": "DB",
+                            "balance": "210,723,652.68"
+                        },
+                        {
+                            "id": "bc19873e3e3ac03cdec31f410015e15e8e3bec4d0748b917838ae637aa3827b9",
+                            "date": "06/01/2021",
+                            "desc": "TRSF E-BANKING DB\n01/06 95031\nFINKU CONTRACT 1\nDICKY ADRIAN",
+                            "cab": "0998",
+                            "amount": "1,500,000.00",
+                            "flow": "DB",
+                            "balance": "209,223,652.68"
+                        },
+                        {
+                            "id": "3aed4d19f91a915caf37ab33973c727682280f1a0388bde1fcbf7d658744bce5",
+                            "date": "11/01/2021",
+                            "desc": "KR OTOMATIS\n",
+                            "cab": "0000",
+                            "amount": "281,563.00",
+                            "flow": "CR",
+                            "balance": "209,505,215.68"
+                        },
+                        {
+                            "id": "dc065739b1e84e6ca5ff2e38b8ce2221bc57bd13b31947156c17688c1c2a2c4d",
+                            "date": "11/01/2021",
+                            "desc": "KR OTOMATIS\n",
+                            "cab": "0000",
+                            "amount": "570,180.00",
+                            "flow": "CR",
+                            "balance": "210,075,395.68"
+                        },
+                        {
+                            "id": "cbac1128dc82318c8e97bb3fe51a230a4b99531623b3c886968fe6b065b3857a",
+                            "date": "14/01/2021",
+                            "desc": "TRSF E-BANKING CR\n1401/FTSCY/WS95011\n1000000.00\nie ie bday\nriv n rex\nELLY GOZAL",
+                            "cab": "7040",
+                            "amount": "1,000,000.00",
+                            "flow": "CR",
+                            "balance": "211,075,395.68"
+                        },
+                        {
+                            "id": "7d4e3d644287d3893bb9d3aa9d8d1e122a7194cc2e9fc48a2b3c5f2246ed3a1b",
+                            "date": "14/01/2021",
+                            "desc": "TRSF E-BANKING CR\n1401/FTSCY/WS95011\n1854000.00\nyleo\nELLY GOZAL",
+                            "cab": "7040",
+                            "amount": "1,854,000.00",
+                            "flow": "CR",
+                            "balance": "212,929,395.68"
+                        },
+                        {
+                            "id": "1f75b25cbe8ba39abf3f44e30934578845c3a4b53610a05e8343bdeb430e8d1c",
+                            "date": "14/01/2021",
+                            "desc": "TRSF E-BANKING CR\n01/14 95031\nROMARIO LEXUS TEND\n",
+                            "cab": "0998",
+                            "amount": "492,500.00",
+                            "flow": "CR",
+                            "balance": "213,421,895.68"
+                        },
+                        {
+                            "id": "4271c6ddec72070607995a614348a163b227ca8e36eea901e562e4b43739a11d",
+                            "date": "15/01/2021",
+                            "desc": "BIAYA ADM\n",
+                            "cab": "0000",
+                            "amount": "15,000.00",
+                            "flow": "DB",
+                            "balance": "213,406,895.68"
+                        },
+                        {
+                            "id": "23774319f4cb3625db0ca532bffa8067fa84a3b4bbbcbe57e2fbce662b778c3a",
+                            "date": "25/01/2021",
+                            "desc": "TRSF E-BANKING DB\n01/25 95031\nUBE REINALDO\nCARISSA AMANDA YUN\n",
+                            "cab": "0998",
+                            "amount": "135,000.00",
+                            "flow": "DB",
+                            "balance": "213,271,895.68"
+                        },
+                        {
+                            "id": "1574a33f99c144993b542c024d36842d52f96a5255e26a15646e3a133261ff62",
+                            "date": "27/01/2021",
+                            "desc": "TRSF E-BANKING DB\n01/27 95031\nNUTELLAO\nCARISSA AMANDA YUN\n",
+                            "cab": "0998",
+                            "amount": "135,000.00",
+                            "flow": "DB",
+                            "balance": "213,136,895.68"
+                        },
+                        {
+                            "id": "75fae134c4415ea169d71ec39d845b1b5bac316c60ca37e6a33368184fd59fac",
+                            "date": "27/01/2021",
+                            "desc": "TRSF E-BANKING CR\n01/27 95031\nYLEO OIL\nELLY GOZAL",
+                            "cab": "0998",
+                            "amount": "2,000,000.00",
+                            "flow": "CR",
+                            "balance": "215,136,895.68"
+                        },
+                        {
+                            "id": "b9527ed77e846df10a2421139bcc71ef258a3fe005bd09f1c359a07930c543d4",
+                            "date": "31/01/2021",
+                            "desc": "BUNGA\n",
+                            "cab": "0000",
+                            "amount": "13,891.40",
+                            "flow": "CR",
+                            "balance": "215,150,787.08"
+                        },
+                        {
+                            "id": "148aa51ca4565324e05442fe4b077dfda860e7ccc09e3e6ea018f0bb15dcbb07",
+                            "date": "31/01/2021",
+                            "desc": "PAJAK BUNGA\n",
+                            "cab": "0000",
+                            "amount": "2,778.28",
+                            "flow": "DB",
+                            "balance": "215,148,008.80"
+                        }
+                    ]
+                }
+            ],
+            "creditCards": {
+                "details": [
+                    {
+                        "label": "Customer No.",
+                        "value": "************5303"
+                    },
+                    {
+                        "label": "Name",
+                        "value": "REINALDO PUTERA TENDEAN"
+                    },
+                    {
+                        "label": "Statement Date",
+                        "value": "11 MAR 2021"
+                    },
+                    {
+                        "label": "Payment Due Date",
+                        "value": "27 MAR 2021"
+                    },
+                    {
+                        "label": "Credit Limit",
+                        "value": "Rp.30.000.000,00"
+                    },
+                    {
+                        "label": "Available Credit Limit",
+                        "value": "Rp.31.774.641,00"
+                    },
+                    {
+                        "label": "Cash Advance Limit",
+                        "value": "Rp.6.000.000,00"
+                    },
+                    {
+                        "label": "Cash Advance",
+                        "value": "Rp.0,00"
+                    },
+                    {
+                        "label": "Available Cash Advance Limit",
+                        "value": "Rp.7.774.641,00"
+                    }
+                ],
+                "billings": {
+                    "previousBalance": "-Rp.2.534.989,00",
+                    "payment": "Rp.0,00",
+                    "newBalance": "Rp.760.348,00",
+                    "outstandingBalance": "-Rp.1.774.641,00"
+                },
+                "cards": [
+                    {
+                        "type": "Visa SQ Signature",
+                        "cardNumber": "****.****.****.1916",
+                        "name": "REINALDO PUTERA T",
+                        "newBalance": "Rp.0,00",
+                        "transactions": []
+                    },
+                    {
+                        "type": "VISA SQ Infinite",
+                        "cardNumber": "****.****.****.2814",
+                        "name": "REINALDO PUTERA T",
+                        "newBalance": "-Rp.1.774.641,00",
+                        "transactions": [
+                            {
+                                "id": "469c40e2d73f0604bc5ffaeffb9d3f8d9cc2fc2523068644d39f12af79f103a2",
+                                "transactionDate": "12 Mar 2021",
+                                "postingDate": "12 Mar 2021",
+                                "description": "CICILAN BCA KE 03 DARI 03, BLIBLI.COM 0%",
+                                "amount": "Rp.656.666,00",
+                                "flow": "DB"
+                            },
+                            {
+                                "id": "db9306322c85ec84b5bfef3e9f27bccfd95541fe09ce19de0ff18c39dfd4effc",
+                                "transactionDate": "27 Mar 2021",
+                                "postingDate": "29 Mar 2021",
+                                "description": "LAZADA INDONESI*835166556JAKARTA SLT ID",
+                                "amount": "Rp.103.682,00",
+                                "flow": "DB"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BCA Card",
+                        "cardNumber": "****.****.****.0307",
+                        "name": "REINALDO P TENDEAN",
+                        "newBalance": "Rp.0,00",
+                        "transactions": []
+                    },
+                    {
+                        "type": "BCA JCB Black",
+                        "cardNumber": "****.****.****.9817",
+                        "name": "REINALDO P TENDEAN",
+                        "newBalance": "Rp.0,00",
+                        "transactions": []
+                    }
+                ]
+            }
+        },
+        "errors": []
+    }
+}
