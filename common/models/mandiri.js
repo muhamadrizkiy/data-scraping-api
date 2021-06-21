@@ -5,10 +5,26 @@ const fetch = require("node-fetch");
 const helpers = require("../../helper");
 
 module.exports = function (Mandiri) {
-  
+  Mandiri.sharedClass.methods().forEach(function (method) {
+    Mandiri.disableRemoteMethodByName("create", method.isStatic);
+    Mandiri.disableRemoteMethodByName("find", method.isStatic);
+    Mandiri.disableRemoteMethodByName("findById", method.isStatic);
+    Mandiri.disableRemoteMethodByName("findOne", method.isStatic);
+    Mandiri.disableRemoteMethodByName("count", method.isStatic);
+    Mandiri.disableRemoteMethodByName("replaceOrCreate", method.isStatic);
+    Mandiri.disableRemoteMethodByName("update", method.isStatic);
+    Mandiri.disableRemoteMethodByName("exists", method.isStatic);
+    Mandiri.disableRemoteMethodByName("replaceById", method.isStatic);
+    Mandiri.disableRemoteMethodByName("createChangeStream", method.isStatic);
+    Mandiri.disableRemoteMethodByName("upsertWithWhere", method.isStatic);
+    Mandiri.disableRemoteMethodByName("destroyById", method.isStatic);
+    Mandiri.disableRemoteMethodByName("deleteById", method.isStatic);
+    Mandiri.disableRemoteMethodByName("upsert", method.isStatic);
+    Mandiri.disableRemoteMethodByName("patchOrCreate", method.isStatic);
+  });
+
   // Get data function
   Mandiri.getData = async function (username, password) {
-
     // calling scraper function to get data with username and password as a param from req query string
     const result = await scraper(username, password);
     return helpers.mergeData(helpers.mockedData, result);
@@ -19,7 +35,7 @@ module.exports = function (Mandiri) {
     description: "Get all data Bank Mandiri",
     accepts: [
       { arg: "username", type: "string", required: true },
-      { arg: "password", type: "string", required: true }
+      { arg: "password", type: "string", required: true },
     ],
     returns: {
       arg: "res",

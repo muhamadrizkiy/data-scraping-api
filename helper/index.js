@@ -68,7 +68,7 @@ module.exports = {
 
       // check for object types
       if (toString.call(src) == "[object Object]") {
-        // loop every eacj object inside the object
+        // loop every each object inside the object
         for (p in src) {
           // check for hasOwnProperty
           if (src.hasOwnProperty(p)) {
