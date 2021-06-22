@@ -57,33 +57,42 @@ module.exports = {
     errors: [],
   },
 
-  // recursively merge properties and return new object
-  mergeData: function () {
-    var dst = {},
-      src,
-      p,
-      args = [].splice.call(arguments, 0); // accept all arguments parameters so that can receive and read multi params
-    while (args.length > 0) {
-      src = args.splice(0, 1)[0];
+  numberFormatArray: ["balance", "amount"],
 
-      // check for object types
-      if (toString.call(src) == "[object Object]") {
-        // loop every each object inside the object
-        for (p in src) {
-          // check for hasOwnProperty
-          if (src.hasOwnProperty(p)) {
-            // check for object types again
-            if (toString.call(src[p]) == "[object Object]") {
-              // call recursively merge function return as a new object
-              dst[p] = this.mergeData(dst[p] || {}, src[p]);
-            } else {
-              dst[p] = src[p];
-            }
-          }
-        }
+  numberFormatAccountNumber: ["accountNumber"],
+
+  IDRFormatAccountNumber: ["previousBalance"],
+
+  trim: function (string) {
+    return string.replace(/^[. ]+|[. ]+$|[. ]+/g, "").trim();
+  },
+
+  currencyFormat: function (number) {
+    return Intl.NumberFormat("id-ID", {
+      currency: "IDR",
+      unitDisplay: "short",
+      minimumFractionDigits: 2,
+    }).format(number);
+  },
+
+  // recursively merge properties and return new object
+  merge: function (target, source) {
+    // Iterate source properties 
+    for (const key of Object.keys(source)) {
+      // check an `Object` set property to merge of `target` and `source` properties
+      if (source[key] instanceof Object && key in target) {
+        Object.assign(source[key], this.merge(target[key], source[key]));
+      }
+      // finding the key contain number for currency formatting
+      if (this.numberFormatArray.includes(key)) {
+        const stringNumber = this.trim(source[key])
+        var number = new Number(stringNumber);
+        source[key] = this.currencyFormat(number)
       }
     }
 
-    return dst;
+    // Join `target` and modified `source`
+    Object.assign(target || {}, source);
+    return target;
   },
 };

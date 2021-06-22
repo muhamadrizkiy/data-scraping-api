@@ -27,7 +27,9 @@ module.exports = function (Mandiri) {
   Mandiri.getData = async function (username, password) {
     // calling scraper function to get data with username and password as a param from req query string
     const result = await scraper(username, password);
-    return helpers.mergeData(helpers.mockedData, result);
+    const data = helpers.merge(helpers.mockedData, result);
+
+    return data;
   };
 
   // register /get-data endpoints using GET method, and also accept username and password as a query param
