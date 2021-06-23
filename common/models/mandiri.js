@@ -3,6 +3,11 @@
 const puppeteer = require("puppeteer");
 const fetch = require("node-fetch");
 const helpers = require("../../helper");
+const https = require("https");
+
+const httpsAgent = new https.Agent({
+  rejectUnauthorized: false,
+});
 
 module.exports = function (Mandiri) {
   Mandiri.sharedClass.methods().forEach(function (method) {
